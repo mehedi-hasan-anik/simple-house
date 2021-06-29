@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "details": "Donec sed orci fermentum, convallis lacus id, tempus elit. Sed eu neque accumsan, porttitor arcu a, interdum est. Donec in risus eu ante.",
+      "button": "Read More",
+      "bgColor": "#1B6F96"
+    },
+    {
+      "id": 2,
+      "details": "Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit. Nam sed suscipit odio. Morbi in dolor finibus, consequat nisl eget.",
+      "button": "Read More",
+      "bgColor": "#1D6E46"
+    },
+    {
+      "id": 3,
+      "details": "Morbi in dolor finibus, consequat nisl eget, pretium nunc. Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit.",
+      "button": "Read More",
+      "bgColor": "752423"
+    }
+  ]

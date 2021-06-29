@@ -1,0 +1,10 @@
+.full-about-area {
+  background: white;
+}
+.tm-container-inner .row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.tm-container-inner {
+  padding: 0px 0px 0px 40px;
+}

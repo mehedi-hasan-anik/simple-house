@@ -1,0 +1,20 @@
+.icon-area {
+}
+.icon-area ul {
+  list-style: none;
+}
+.icon-area ul li {
+  display: inline-block;
+}
+.tm-social-link {
+  color: #626364;
+  display: inline-block;
+  border-radius: 1px;
+  background-color: transparent;
+  font-size: 1.3rem;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+  margin-bottom: 15px;
+}

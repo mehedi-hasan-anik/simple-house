@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Jennifer Soft",
+      "image": "https://i.ibb.co/rwRJvKB/about-04.jpg",
+      "details": "Vivamus cursus leo nec sem feugiat sagittis. Duis ut feugiat odio, sit amet accumsan odio.",
+      "position": "Founder and CEO"
+    },
+    {
+      "id": 2,
+      "name": "Daisy Walker",
+      "image": "https://i.ibb.co/nkj7V13/about-03.jpg",
+      "details": "Praesent non vulputate elit. Orci varius natoque et magnis dis parturient, nascetur ridiculus mus.",
+      "position": "Executive Chef"
+    },
+    {
+      "id": 3,
+      "name": "Florence Nelson",
+      "image": "https://i.ibb.co/bHqLQdj/about-01.jpg",
+      "details": "Aenean sapien sem, ultricies sed vulputate et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae.",
+      "position": "Kitchen Manager"
+    },
+    {
+      "id": 4,
+      "name": "Valentina Martin",
+      "image": "https://i.ibb.co/k4ZdQc0/about-02.jpg",
+      "details": "Praesent non vulputate elit. Orci varius natoque penatibus et magnis montes, nascetur ridiculus musr",
+      "position": "Culinary Director"
+    }
+  ]

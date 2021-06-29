@@ -1,0 +1,27 @@
+.tm-gallery-item {
+  margin: 0 auto;
+}
+.single-food-item .tm-gallery-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #1a6692;
+  margin-bottom: 15px;
+}
+.single-food-item .tm-gallery-description {
+  margin-bottom: 20px;
+  color: #626364;
+  line-height: 1.8;
+  padding-right: 10px;
+}
+.single-food-item .tm-gallery-price {
+  font-size: 1.25rem;
+  color: #2f956d;
+  margin-bottom: 30px;
+}
+.single-food-item .tm-gallery-img {
+  margin-bottom: 20px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}

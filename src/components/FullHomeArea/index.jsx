@@ -4,7 +4,8 @@ import {Link} from "react-router-dom";
 import foodData from '../../data/foodData.json';
 import Maecenas from '../Maecenas';
 import Footer from '../Footer';
-import Pizza from '../Pizza';
+import SingelFoodItem from '../SingelFoodItem';
+import CommonWelcome from '../CommonWelcome';
 
 function FullHomeArea() {
     const  [foodItems, setFoodItems] = useState([])
@@ -17,10 +18,12 @@ function FullHomeArea() {
 
     
     return (
-        <div className="full-home-area">
-            <div className="row tm-welcome-section">
-				<h2 className="col-12 text-center tm-section-title">Welcome to Simple House</h2>
-				<p className="col-12 text-center">Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
+        <div className="full-home-area conatiner">
+            <div>
+                <CommonWelcome
+                  title="Welcome to Simple House"
+                  details="Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites."
+                />
 			</div>
 			
 			<div className="tm-paging-links">
@@ -32,21 +35,28 @@ function FullHomeArea() {
 					</ul>
 				</nav>
 			</div>
-            <div className="singleItem">
-                <div className="row tm-gallery">
-                       {
-                            foodItems.map(item =>
-                                <Pizza
-                                key={item.id}
-                                title={item.title}
-                                image={item.image}
-                                details={item.details}
-                                price={item.price}
-                                />
-                            )
-                        }
+                <div className="row tm-gallery"> 
+                                {
+                                        foodItems ? foodItems.map(item =>
+                                            <SingelFoodItem
+                                            key={item.id}
+                                            title={item.title}
+                                            image={item.image}
+                                            details={item.details}
+                                            price={item.price}
+                                            />
+                                        ):foodData.slice(0, 4).map(item =>
+                                            <SingelFoodItem
+                                            key={item.id}
+                                            title={item.title}
+                                            image={item.image}
+                                            details={item.details}
+                                            price={item.price}
+                                            />
+                                        )
+                                    }
                 </div>
-            </div>
+          
 
             <Maecenas/>
             <Footer />
