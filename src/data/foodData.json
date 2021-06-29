@@ -1,0 +1,165 @@
+[
+    {
+      "id": 1,
+      "category":"pizza",
+      "title": "Fusce dictum finibus",
+      "image": "https://i.ibb.co/174SZVq/08.jpg",
+      "details": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+      "price":"$15"
+    },
+    {
+      "id": 2,
+      "category":"pizza",
+      "title": "Aliquam sagittis",
+      "image": "https://i.ibb.co/NnGn7dV/07.jpg",
+      "details": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+      "price":"$45 / $55"
+    },
+    {
+      "id": 3,
+      "category":"pizza",
+      "title": "Sed varius turpis",
+      "image": "https://i.ibb.co/Wz701mz/06.jpg",
+      "details": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+      "price":"$20 / $40 / $60"
+    },
+    {
+      "id": 4,
+      "category":"pizza",
+      "title": "Aliquam sagittis",
+      "image": "https://i.ibb.co/6DvYRJW/05.jpg",
+      "details": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+      "price":"$45 / $55"
+    },
+    {
+      "id": 5,
+      "category":"pizza",
+      "title": "Maecenas eget justo",
+      "image": "https://i.ibb.co/V9s2dZ2/04.jpg",
+      "details": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+      "price":"$$30.50"
+    },
+    {
+      "id": 6,
+      "category":"pizza",
+      "title": "Quisque et felis eros",
+      "image": "https://i.ibb.co/smNgdQy/03.jpg",
+      "details": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+      "price":"$45 / $55"
+    },
+    {
+      "id": 7,
+      "category":"pizza",
+      "title": "Sed ultricies dui",
+      "image": "https://i.ibb.co/VpPhdTK/01.jpg",
+      "details": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+      "price":"$65 / $70"
+    },
+    {
+      "id": 8,
+      "category":"pizza",
+      "title": "Donec porta consequat",
+      "image": "https://i.ibb.co/R9g14yz/02.jpg",
+      "details": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+      "price":"$45 / $55"
+    },
+    {
+      "id": 9,
+      "category":"salad",
+      "title": "Salad Menu One",
+      "image": "https://i.ibb.co/174SZVq/08.jpg",
+      "details": "Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique",
+      "price": "$55 / $60"
+    },
+    {
+      "id": 10,
+      "category":"salad",
+      "title": "Second Title Salad",
+      "image": "https://i.ibb.co/NnGn7dV/07.jpg",
+      "details": "Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique",
+      "price": "$45"
+    },
+    {
+      "id": 11,
+      "category":"salad",
+      "title": "Third Salad Item",
+      "image": "https://i.ibb.co/Wz701mz/06.jpg",
+      "details": "Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique",
+      "price": "$50"
+    },
+    {
+      "id": 12,
+      "category":"salad",
+      "title": "Superior Salad",
+      "image": "https://i.ibb.co/6DvYRJW/05.jpg",
+      "details": "Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique",
+      "price": "$55 / $60"
+    },
+    {
+      "id": 13,
+      "category":"salad",
+      "title": "Sed ultricies dui",
+      "image": "https://i.ibb.co/V9s2dZ2/04.jpg",
+      "details": "Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique",
+      "price": "$50"
+    },
+    {
+      "id": 14,
+      "category":"salad",
+      "title": "Maecenas eget justo",
+      "image": "https://i.ibb.co/smNgdQy/03.jpg",
+      "details": "Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique",
+      "price": "$45"
+    },
+
+
+
+    {
+      "id": 14,
+      "category":"noodle",
+      "title": "Noodle One",
+      "image": "https://i.ibb.co/smNgdQy/03.jpg",
+      "details": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "price": "$65"
+    },
+    {
+      "id": 16,
+      "category":"noodle",
+      "title": "Noodle Second",
+      "image": "https://i.ibb.co/smNgdQy/03.jpg",
+      "details": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "price": "$37"
+    },
+    {
+      "id": 17,
+      "category":"noodle",
+      "title": "Third Soft Noodle",
+      "image": "https://i.ibb.co/smNgdQy/03.jpg",
+      "details": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "price": "$20"
+    },
+    {
+      "id": 18,
+      "category":"noodle",
+      "title": "Aliquam sagittis",
+      "image": "https://i.ibb.co/smNgdQy/03.jpg",
+      "details": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "price": "$65"
+    },
+    {
+      "id": 19,
+      "category":"noodle",
+      "title": "Maecenas eget justo",
+      "image": "https://i.ibb.co/smNgdQy/03.jpg",
+      "details": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "price": "$40"
+    },
+    {
+      "id": 20,
+      "category":"noodle",
+      "title": "Quisque et felis eros",
+      "image": "https://i.ibb.co/smNgdQy/03.jpg",
+      "details": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "price": "$45"
+    }
+  ]

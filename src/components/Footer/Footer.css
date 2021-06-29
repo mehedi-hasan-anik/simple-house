@@ -1,0 +1,16 @@
+.footer-area .tm-footer {
+  padding: 25px 15px;
+  margin-top: 40px;
+}
+.footer-area .text-center {
+  text-align: center;
+}
+.footer-area p,
+.footer-area address {
+  color: #626364;
+  line-height: 1.8;
+}
+.footer-area .tm-footer a {
+  color: #626364;
+  text-decoration: none;
+}

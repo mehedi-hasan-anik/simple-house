@@ -1,0 +1,64 @@
+.tm-welcome-section {
+  margin: 60px auto;
+  max-width: 655px;
+}
+.tm-section-title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.text-center {
+  text-align: center;
+}
+.full-home-area .col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.full-home-area ul,
+.full-home-area nav,
+.full-home-area body,
+.full-home-area h1,
+.full-home-area h2,
+.full-home-area h4,
+.full-home-area h6,
+.full-home-area p,
+.full-home-area figure {
+  margin: 0;
+  padding: 0;
+}
+.full-home-area .col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.tm-paging-links {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tm-paging-item {
+  list-style: none;
+  display: inline-block;
+  border: 1px solid #2f956d;
+  margin: 7px;
+}
+.tm-paging-link.active,
+.tm-paging-link:hover {
+  background-color: #2f956d;
+  color: white;
+}
+.tm-paging-link {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #2f956d;
+  background-color: transparent;
+}
+.full-home-area a,
+.full-home-area button {
+  transition: all 0.3s ease;
+}

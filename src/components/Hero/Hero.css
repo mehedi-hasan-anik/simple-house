@@ -1,0 +1,111 @@
+.placeholder {
+  width: 100%;
+  min-height: 460px;
+  background-color: #556e5b;
+  margin: 0px;
+  padding: 0px;
+}
+.parallax-window {
+  min-height: 460px;
+  background: transparent;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+.tm-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  z-index: 1000;
+}
+.tm-header-inner {
+  padding: 40px 50px;
+}
+.tm-site-logo {
+  display: inline-block;
+  margin-right: 5px;
+}
+.tm-site-text-box {
+  display: inline-block;
+}
+.tm-site-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+ul,
+nav,
+body,
+h1,
+h2,
+h4,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+.tm-site-description {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+ul,
+nav,
+body,
+h1,
+h2,
+h4,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+.tm-nav {
+  text-align: right;
+  margin-top: 30px;
+}
+.tm-nav-ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul,
+nav,
+body,
+h1,
+h2,
+h4,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+.tm-nav-li {
+  list-style: none;
+  display: block;
+  margin-bottom: 0;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.tm-nav-link {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+Link,
+button {
+  transition: all 0.3s ease;
+}
+.tm-nav-link:hover {
+  border-bottom: 1px solid white;
+  color: white;
+}
