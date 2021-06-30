@@ -1,16 +1,14 @@
 import React from 'react';
 import './FeaturesCol.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-function FeatureCol({details, button}) {
+function FeatureCol({details, title, icon}) {
     return (
         <div className="feature-col">
             <div className="col-lg-4">
 						<div className="tm-feature">
-                            <FontAwesomeIcon icon={faCoffee} />
+                            {icon}
 							<p className="tm-feature-description">{details}</p>
-							<a href="index.html" className="tm-btn tm-btn-primary">{button}</a>
+							<a href="index.html" className="tm-btn tm-btn-primary">{title}</a>
 						</div>
 					</div>
         </div>

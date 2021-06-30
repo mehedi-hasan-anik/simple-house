@@ -6,7 +6,7 @@ function SocialMeida({title, url, icon}) {
     return (
         <li>
             <a href={url} className="tm-social-link" target="_blank" title={title} rel="noreferrer">
-            <FontAwesomeIcon icon={icon} />
+            <FontAwesomeIcon className="tm-social-icon" icon={icon} />
         </a>
     </li>
     )

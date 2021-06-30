@@ -9,7 +9,10 @@ function ScrollImage() {
 				<div className="row">
 					<div className="col-12">
 						<div className="placeholder-2">
-							<div className="parallax-window-2" data-parallax="scroll" style={{backgroundImage: `url(${scrollImage})`}}>
+							<div className="parallax-window-2" data-parallax="scroll" style={{backgroundImage: `url(${scrollImage})`,}}>
+								<div className="overlay">
+									
+								</div>
                             </div>		
 						</div>
 					</div>

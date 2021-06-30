@@ -15,6 +15,16 @@
   text-decoration: none;
   width: 40px;
   height: 40px;
-  margin-right: 0;
   margin-bottom: 15px;
+  margin-right: 5px;
+}
+.tm-social-link:hover {
+  background: #626364;
+  color: white;
+  margin-right: 5px;
+  padding: 0px;
+}
+.tm-social-icon {
+  margin-left: 10px;
+  margin-top: 10px;
 }
