@@ -10,7 +10,7 @@ import member1 from "../../components/Image/about-01.jpg";
 import member2 from "../../components/Image/about-02.jpg";
 import member3 from "../../components/Image/about-03.jpg";
 import member4 from "../../components/Image/about-04.jpg";
-import SocialMeida from '../IconArea';
+import SocialMeida from '../SocialMeida';
 
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 

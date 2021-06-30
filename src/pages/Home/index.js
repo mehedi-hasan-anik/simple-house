@@ -5,13 +5,15 @@ import FullHomeArea from "../../components/FullHomeArea";
 
 export const Home = () => {
   return (
-    <div className="container">
-      <Hero
-        bgImage={herobgPhoto}
-        titile="Simple House"
-        description="new restaurant template"
-      />
-      <FullHomeArea />
+    <div style={{ background: "#ccc" }}>
+      <div className="container" style={{ background: "white" }}>
+        <Hero
+          bgImage={herobgPhoto}
+          titile="Simple House"
+          description="new restaurant template"
+        />
+        <FullHomeArea />
+      </div>
     </div>
   );
 };

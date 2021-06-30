@@ -9,10 +9,9 @@ import CommonWelcome from '../CommonWelcome';
 
 function FullHomeArea() {
     const  [foodItems, setFoodItems] = useState([])
-    console.log(foodItems);
 
     useEffect(() => {
-         setFoodItems(foodData.slice(0, 4));
+         setFoodItems(foodData.slice(0, 8));
     }, [])
 
     const foodHandler =(event)=>{
@@ -35,8 +34,8 @@ function FullHomeArea() {
 				<nav>
 					<ul>
                         <li className="tm-paging-item"><Link to="/" onClick={foodHandler} className="tm-paging-link active">Pizza</Link></li>
-                        <li className="tm-paging-item active"><Link to="/"  onClick={foodHandler} className="tm-paging-link">Salad</Link></li>
-                        <li className="tm-paging-item active"><Link to="/"  onClick={foodHandler} className="tm-paging-link">Noodle</Link></li>
+                        <li className="tm-paging-item "><Link to="/"  onClick={foodHandler} className="tm-paging-link">Salad</Link></li>
+                        <li className="tm-paging-item"><Link to="/"  onClick={foodHandler} className="tm-paging-link">Noodle</Link></li>
 					</ul>
 				</nav>
 			</div>
