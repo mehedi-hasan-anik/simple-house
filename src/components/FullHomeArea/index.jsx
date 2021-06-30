@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './FullHomeArea.css';
-import {Link} from "react-router-dom";
 import foodData from '../../data/foodData.json';
 import Maecenas from '../Maecenas';
 import Footer from '../Footer';
 import SingelFoodItem from '../SingelFoodItem';
 import CommonWelcome from '../CommonWelcome';
+import {NavLink} from 'react-router-dom';
 
 function FullHomeArea() {
     const  [foodItems, setFoodItems] = useState([])
@@ -33,9 +33,11 @@ function FullHomeArea() {
 			<div className="tm-paging-links">
 				<nav>
 					<ul>
-                        <li className="tm-paging-item"><Link to="/" onClick={foodHandler} className="tm-paging-link active">Pizza</Link></li>
-                        <li className="tm-paging-item "><Link to="/"  onClick={foodHandler} className="tm-paging-link">Salad</Link></li>
-                        <li className="tm-paging-item"><Link to="/"  onClick={foodHandler} className="tm-paging-link">Noodle</Link></li>
+                       <li className="tm-paging-item"><NavLink exact  to="/" activeClassName="selected" onClick={foodHandler} className="tm-paging-link">Pizza</NavLink></li>
+
+                       <li className="tm-paging-item"><NavLink exact to="/"  activeClassName="selected" onClick={foodHandler} className="tm-paging-link">Salad</NavLink></li>
+
+                       <li className="tm-paging-item"><NavLink exact   to="/" activeClassName="selected" onClick={foodHandler} className="tm-paging-link">Noodle</NavLink></li>
 					</ul>
 				</nav>
 			</div>

@@ -1,5 +1,5 @@
 .faq-area .tm-info-section {
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 
 .faq-area .tm-container-inner,
@@ -53,8 +53,6 @@
 }
 .faq-area .panel {
   background-color: white;
-  /* max-height: 0;
-  overflow: hidden; */
   transition: max-height 0.2s ease-out;
 }
 .faq-area .panel p {

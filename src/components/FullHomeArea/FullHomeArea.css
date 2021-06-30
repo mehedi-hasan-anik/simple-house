@@ -34,10 +34,13 @@
   border: 1px solid #2f956d;
   margin: 7px;
 }
-.tm-paging-link.active,
+.tm-paging-link .selected,
 .tm-paging-link:hover {
-  background-color: #2f956d;
-  color: white;
+  /* background-color: #2f956d; */
+  /* color: white; */
+}
+.selected {
+  border-bottom: 4px solid red;
 }
 .tm-paging-link {
   padding: 10px 30px;
