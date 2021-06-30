@@ -34,11 +34,6 @@
   border: 1px solid #2f956d;
   margin: 7px;
 }
-.tm-paging-link .selected,
-.tm-paging-link:hover {
-  /* background-color: #2f956d; */
-  /* color: white; */
-}
 .selected {
   border-bottom: 4px solid red;
 }
@@ -68,4 +63,15 @@
 .tm-gallery-item {
   margin: 0 auto;
   padding: 20px 20px 40px;
+}
+
+/*responsive*/
+@media only screen and (max-width: 600px) {
+  .tm-gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0px 42px;
+  }
 }

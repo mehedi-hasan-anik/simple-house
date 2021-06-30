@@ -67,3 +67,9 @@
   background: #98999a;
   color: white;
 }
+
+/* @media only screen and (max-width: 600px) {
+  .maecenas-area-left {
+    width: 100%;
+  }
+} */
