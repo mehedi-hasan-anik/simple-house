@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './FullHomeArea.css';
 import {Link} from "react-router-dom";
 import foodData from '../../data/foodData.json';
@@ -9,6 +9,11 @@ import CommonWelcome from '../CommonWelcome';
 
 function FullHomeArea() {
     const  [foodItems, setFoodItems] = useState([])
+    console.log(foodItems);
+
+    useEffect(() => {
+         setFoodItems(foodData.slice(0, 4));
+    }, [])
 
     const foodHandler =(event)=>{
         const foodName = event.target.textContent.toLowerCase();
@@ -30,31 +35,23 @@ function FullHomeArea() {
 				<nav>
 					<ul>
                         <li className="tm-paging-item"><Link to="/" onClick={foodHandler} className="tm-paging-link active">Pizza</Link></li>
-                        <li className="tm-paging-item"><Link to="/"  onClick={foodHandler} className="tm-paging-link">Salad</Link></li>
-                        <li className="tm-paging-item"><Link to="/"  onClick={foodHandler} className="tm-paging-link">Noodle</Link></li>
+                        <li className="tm-paging-item active"><Link to="/"  onClick={foodHandler} className="tm-paging-link">Salad</Link></li>
+                        <li className="tm-paging-item active"><Link to="/"  onClick={foodHandler} className="tm-paging-link">Noodle</Link></li>
 					</ul>
 				</nav>
 			</div>
                 <div className="row tm-gallery"> 
-                                {
-                                        foodItems ? foodItems.map(item =>
-                                            <SingelFoodItem
-                                            key={item.id}
-                                            title={item.title}
-                                            image={item.image}
-                                            details={item.details}
-                                            price={item.price}
-                                            />
-                                        ):foodData.slice(0, 4).map(item =>
-                                            <SingelFoodItem
-                                            key={item.id}
-                                            title={item.title}
-                                            image={item.image}
-                                            details={item.details}
-                                            price={item.price}
-                                            />
-                                        )
-                                    }
+                    {
+                        foodItems && foodItems.map(item =>
+                            <SingelFoodItem
+                            key={item.id}
+                            title={item.title}
+                            image={item.image}
+                            details={item.details}
+                            price={item.price}
+                            />
+                        )
+                    }
                 </div>
           
 

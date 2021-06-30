@@ -11,7 +11,7 @@ function Features() {
                     {
                         featuresData.map(item =>
                             <FeatureCol
-                            key={item.key}
+                            key={item.id}
                             details={item.details}
                             button={item.button}
                             bgColor={item.bgColor}

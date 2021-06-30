@@ -1,12 +1,18 @@
 import React from 'react'
 import './FullAboutArea.css';
 import Footer from '../Footer';
-import aboutPerson from '../../data/aboutPerson.json';
 import CommonWelcome from '../CommonWelcome';
 import SinglePerson from '../SinglePerson';
 import ScrollImage from '../ScrollImage';
 import Features from '../Features';
 import History from '../History';
+import member1 from "../../components/Image/about-01.jpg";
+import member2 from "../../components/Image/about-02.jpg";
+import member3 from "../../components/Image/about-03.jpg";
+import member4 from "../../components/Image/about-04.jpg";
+import SocialMeida from '../IconArea';
+
+import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 function FullAboutArea() {
     return (
@@ -19,69 +25,75 @@ function FullAboutArea() {
                You can modify and use this HTML template for your website. Total 3 HTML pages included in this template. Header image has a parallax effect."
              />
 
-             <div className="tm-container-inner tm-persons">
-                <div className="row">
-                       {
-                            aboutPerson.map(item =>
-                                <SinglePerson
-                                key={item.id}
-                                name={item.name}
-                                position={item.position}
-                                details={item.details}
-                                image={item.image}
-                                />
-                            )
-                        }
-                </div>
-             </div>
-             
+         <div className="tm-container-inner tm-persons">
+				<div className="row">
+					<SinglePerson
+					   image={member1}
+					   position="Founder and CEO"
+					   details="Vivamus cursus leo nec sem feugiat sagittis.
+					   Duis ut feugiat odio, sit amet accumsan
+					   odio."
+					   name="Jennifer Soft">
+						   <div className="icon-area"> 
+             					<ul>
+									<SocialMeida title="facebook" url="https://facebook.com" icon={faFacebook} />
+									<SocialMeida title="instagram" url="https://instagram.com" icon={faInstagram} />
+									<SocialMeida title="youtube" url="https://twitter.com" icon={faTwitter} />
+							 	</ul>
+							 </div>
+					 </SinglePerson>
+					
+					<SinglePerson
+					   image={member2}
+					   position="Executive Chef"
+					   details="Praesent non vulputate elit. Orci varius
+					   natoque et magnis dis parturient, nascetur ridiculus mus."
+					   name="Daisy Walker">
+						   <div className="icon-area"> 
+             					<ul>
+									<SocialMeida title="facebook" url="https://facebook.com" icon={faFacebook} />
+									<SocialMeida title="youtube" url="https://twitter.com" icon={faTwitter} />
+							 	</ul>
+							 </div>
+					</SinglePerson>
+					
+					<SinglePerson
+					   image={member3}
+					   position="Kitchen Manager"
+					   details="Aenean sapien sem, ultricies sed vulputate
+					   et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae"
+					   name="Florence Nelson">
+						   <div className="icon-area"> 
+             					<ul>
+									<SocialMeida title="facebook" url="https://facebook.com" icon={faFacebook} />
+									<SocialMeida title="instagram" url="https://instagram.com" icon={faInstagram} />	
+							 	</ul>
+							 </div>
+				    </SinglePerson>
+
+					
+					<SinglePerson
+					   image={member4}
+					   position="Culinary Director"
+					   details="Praesent non vulputate elit. Orci varius
+					   natoque penatibus et magnis montes, nascetur ridiculus mus."
+					   name="Valentina Martin">
+						    <div className="icon-area"> 
+             					<ul>
+									<SocialMeida title="facebook" url="https://facebook.com" icon={faFacebook} />
+									<SocialMeida title="instagram" url="https://instagram.com" icon={faInstagram} />
+									<SocialMeida title="twitter" url="https://twitter.com" icon={faTwitter} />
+									<SocialMeida title="youtube" url="https://youtube.com" icon={faYoutube} />
+							 	</ul>
+							 </div>
+					</SinglePerson>
+					
+				</div>
+			</div>
 			 <ScrollImage/>
              <Features/>
 			 <History/>
-		
-
-			{/* <div className="tm-container-inner tm-features">
-				<div className="row">
-					<div className="col-lg-4">
-						<div className="tm-feature">
-							<i className="fas fa-4x fa-pepper-hot tm-feature-icon"></i>
-							<p className="tm-feature-description">Donec sed orci fermentum, convallis lacus id, tempus elit. Sed eu neque accumsan, porttitor arcu a, interdum est. Donec in risus eu ante.</p>
-							<a href="index.html" className="tm-btn tm-btn-primary">Read More</a>
-						</div>
-					</div>
-					<div className="col-lg-4">
-						<div className="tm-feature">
-							<i className="fas fa-4x fa-seedling tm-feature-icon"></i>
-							<p className="tm-feature-description">Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit. Nam sed suscipit odio. Morbi in dolor finibus, consequat nisl eget.</p>
-							<a href="index.html" className="tm-btn tm-btn-success">Read More</a>
-						</div>
-					</div>
-					<div className="col-lg-4">
-						<div className="tm-feature">
-							<i className="fas fa-4x fa-cocktail tm-feature-icon"></i>
-							<p className="tm-feature-description">Morbi in dolor finibus, consequat nisl eget, pretium nunc. Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit.</p>
-							<a href="index.html" className="tm-btn tm-btn-danger">Read More</a>
-						</div>
-					</div>
-				</div>
-			</div> */}
-			{/* <div className="tm-container-inner tm-history">
-				<div className="row">
-					<div className="col-12">
-						<div className="tm-history-inner">
-							<img src="" alt="Image" className="img-fluid tm-history-img" />
-							<div className="tm-history-text"> 
-								<h4 className="tm-history-title">History of our restaurant</h4>
-								<p className="tm-mb-p">Sed ligula risus, interdum aliquet imperdiet sit amet, auctor sit amet justo. Maecenas posuere lorem id augue interdum vehicula. Praesent sed leo eget libero ultricies congue.</p>
-								<p>Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to <a href="https://templatemo.com/contact">contact TemplateMo</a> for additional permissions about our templates. Thank you.</p>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div> */}
-		
-
-		<Footer/>
+		    <Footer/>
 	</div>
         </div>
     )

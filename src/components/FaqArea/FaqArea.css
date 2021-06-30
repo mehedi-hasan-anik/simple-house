@@ -1,0 +1,67 @@
+.faq-area .tm-info-section {
+  padding-top: 30px;
+}
+
+.faq-area .tm-container-inner,
+.faq-area .tm-container-inner-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.faq-area .row {
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -15px;
+}
+.faq-area .tm-faq {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq-area .col-12 {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.faq-area .tm-accordion {
+  padding-top: 40px;
+}
+.faq-area .accordion {
+  font-size: 1.2rem;
+  font-family: "Open Sans", Helevetica, Arial, sans-serif;
+  color: #999;
+  background-color: transparent;
+  border: 1px solid #d0d0d0;
+  margin-bottom: 17px;
+  margin-top: 17px;
+  cursor: pointer;
+  padding: 10px 20px 6px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+.faq-area .accordion:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  animation: changeIconBack 0.3s linear;
+  content: "\f0d9";
+  font-size: 2rem;
+  color: #999;
+  float: right;
+  margin-left: 5px;
+}
+.faq-area .panel {
+  background-color: white;
+  /* max-height: 0;
+  overflow: hidden; */
+  transition: max-height 0.2s ease-out;
+}
+.faq-area .panel p {
+  padding: 5px 20px 30px;
+}
+.faq-area p,
+.faq-area address {
+  color: #626364;
+  line-height: 1.8;
+}

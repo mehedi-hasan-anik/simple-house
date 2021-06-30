@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css';
 import {Link} from 'react-router-dom'
 import logo from "../../components/Image/simple-house-logo.png";
-export function Hero({bgImage, titile, description}) {
+export function Hero({bgImage, title, description}) {
     return (
         <div className="placeholder container">
 			<div className="parallax-window" data-parallax="scroll" style={{backgroundImage: `url(${bgImage})`}}>
@@ -11,7 +11,7 @@ export function Hero({bgImage, titile, description}) {
 						<div className="col-md-6 col-12">
 							<img src={logo} alt="Logo" className="tm-site-logo" /> 
 							<div className="tm-site-text-box">
-								<h1 className="tm-site-title">{titile}</h1>
+								<h1 className="tm-site-title">{title}</h1>
 								<h6 className="tm-site-description">{description}</h6>	
 							</div>
 						</div>

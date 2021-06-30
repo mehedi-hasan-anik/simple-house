@@ -1,0 +1,34 @@
+.google-area .tm-map-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.google-area .tm-container-inner,
+.google-area .tm-container-inner-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.google-area .row {
+  margin-left: -10px;
+  margin-right: -15px;
+}
+.google-area.col-12 {
+  max-width: 100%;
+}
+
+.google-area .google-area .col-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.google-area .tm-map {
+  max-width: 900px;
+  height: 450px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.google-area .tm-map iframe {
+  width: 100%;
+  height: 100%;
+}

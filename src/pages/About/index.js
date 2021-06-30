@@ -9,7 +9,7 @@ export const About = () => {
       <div className="container">
         <Hero
           bgImage={herobgPhoto}
-          titile="Simple House"
+          title="Simple House"
           description="new restaurant template"
         />
         <FullAboutArea />
